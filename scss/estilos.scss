@@ -11,6 +11,9 @@
  #banner h1{
    font-size: 1.0rem;
  }
+ .contenido__banner{
+    margin-left: 20px;
+ }
  #banner p{
   font-size: 1.9rem;
 }
@@ -93,7 +96,13 @@
         &:hover:after {
             width: 100%;
         }
-    }
+}
+.quienes-somos{
+  margin-left: 20px;
+}
+.subtitulo__finalidad{
+  margin-left: 10px;
+}
 #planes{
   height: 100vh;
   padding-top: 50px;

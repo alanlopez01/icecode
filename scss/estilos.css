@@ -76,6 +76,10 @@ body {
   font-size: 1.0rem;
 }
 
+.contenido__banner {
+  margin-left: 20px;
+}
+
 #banner p {
   font-size: 1.9rem;
 }
@@ -180,6 +184,14 @@ body {
 
 .btn-8 span:hover:after {
   width: 100%;
+}
+
+.quienes-somos {
+  margin-left: 20px;
+}
+
+.subtitulo__finalidad {
+  margin-left: 10px;
 }
 
 #planes {
