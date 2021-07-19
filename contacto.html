@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IceCode, Agencia de desarollo web.</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name=descaription content="IceCode, Desarollo web y Marketing Digital">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="scss/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+	<div id="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#"><img src="media/logonuevo.png" height="50" width="75"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="nosotros.html">Nosotros</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="blog.html">Blog</a>  
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="precio.html">Precio</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="contacto.html">Contacto</a>
+		        </li>
+		      </ul>
+	    	</div>
+		  </div>
+		</nav>
+	</div>
+	<div id="banner" class="d-flex">
+		<div class="conteiner mt-5">
+			<div class="row">
+				<div class="col-log-7 mx-auto text-start">
+					<p class="wow animate__animated animate__bounceInRight font-weight-bold">Bienvenid@ a Icecode</p>
+					<h1 class="text-secondary">Desarollo fullstack para tu empresa, Nos adaptamos a tus necesidades.</h1>
+					<div class="frame mt-5">
+						<form method="get" action="nosotros.html">
+			            	<button class="custom-btn btn-8"><span>Nosotros</span></button>
+			       	 	</form>
+		       		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="formulario">
+		<h1>Contacto</h1>
+  		<form>
+	    	<h1>Ingrese sus datos aqui :</h1>  
+    		<div class="contentform">
+				<div class="leftcontact">
+					<div class="form-group">
+						<p>Nombre<span>*</span></p>
+						<span class="icon-case"><i class="fa fa-male"></i></span>
+						<input type="text" name="nom" id="nom" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné."/>
+						<div class="validation"></div>
+					</div> 
+					<div class="form-group">
+						<p>Apellido <span>*</span></p>
+						<span class="icon-case"><i class="fa fa-user"></i></span>
+						<input type="text" name="prenom" id="prenom" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné."/>
+						<div class="validation"></div>
+					</div>
+					<div class="form-group">
+						<p>E-mail <span>*</span></p>	
+						<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+						<input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
+						<div class="validation"></div>
+					</div>	
+					<div class="form-group">
+						<p>Empresa/Emprendimienro <span>*</span></p>
+						<span class="icon-case"><i class="fa fa-home"></i></span>
+						<input type="text" name="society" id="society" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné."/>
+						<div class="validation"></div>
+					</div>
+				</div>
+				<div class="rightcontact">	
+					<div class="form-group">
+						<p>Localidad <span>*</span></p>
+						<span class="icon-case"><i class="fa fa-building-o"></i></span>
+						<input type="text" name="ville" id="ville" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Ville' doit être renseigné."/>
+						<div class="validation"></div>
+					</div>
+					<div class="form-group">
+						<p>Codigo Postal <span>*</span></p>
+						<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+						<input type="text" name="postal" id="postal" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Code postal' doit être renseigné."/>
+						<div class="validation"></div>
+					</div>	
+					<div class="form-group">
+						<p>Numero de Celular <span>*</span></p>	
+						<span class="icon-case"><i class="fa fa-phone"></i></span>
+						<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres"/>
+						<div class="validation"></div>
+					</div>
+					<div class="form-group">
+						<p>Rubro <span>*</span></p>
+						<span class="icon-case"><i class="fa fa-info"></i></span>
+						<input type="text" name="fonction" id="fonction" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Fonction' doit être renseigné."/>
+						<div class="validation"></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<p>Message <span>*</span></p>
+					<span class="icon-case"><i class="fa fa-comments-o"></i></span>
+					<textarea name="message" rows="14" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
+					<div class="validation"></div>
+				</div>	
+				<button type="submit" class="bouton-contact">Send</button>
+			</div>
+		</form>
+	</div>
+	<!-- Site footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-12 col-md-6">
+				<h6>About</h6>
+				<p class="text-justify">Icecode, se creo para poder ayudar a todos los emprendimiento a poder tenes una pagina web......</p>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<h6>Categories</h6>
+				<ul class="footer-links">
+				<li><a href=#>C</a></li>
+				<li><a href=#>UI Design</a></li>
+				<li><a href=#>PHP</a></li>
+				<li><a href=#>Java</a></li>
+				<li><a href=#>Android</a></li>
+				<li><a href=#>Templates</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<h6>Quick Links</h6>
+				<ul class="footer-links">
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+				<li><a href="precio.html">Precio</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				</ul>
+			</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container">
+			<div class="row">
+			<div class="col-md-8 col-sm-6 col-xs-12">
+				<p class="copyright-text">Copyright &copy; 2021 Derechos de Autor, "Alan Lopez"
+				</p>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<ul class="social-icons">
+				<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+				<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+				</ul>
+			</div>
+			</div>
+		</div>
+	</footer>
+		<a href="https://wa.me/+541160121149" class="boton-whatsapp" target="_blank"><img src= "media/whatsapp-logo-11.png" alt="iconoWpp"></a>
+	</div>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>	
+	<script> src= js/popper.min.js</script>
+    <script> src=bootstrap/js/bootstrap.min.js</script>
+</body>
+</html>

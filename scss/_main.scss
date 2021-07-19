@@ -1,0 +1,60 @@
+@mixin banner{
+    background: #fafb52;
+    background: -webkit-gradient(linear, left top, right top, color-stop(35%, #fafb52), to(#f0e133));
+    background: linear-gradient(90deg, #fafb52 35%, #f0e133 100%);
+    height: 50vh;
+    min-height: 400px;
+}
+@mixin boton {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: transparent;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-size: 1em;
+}
+@mixin seccion-grisclaro ($height) {
+    height: $height;
+    background: #f8f9fa;
+}
+@mixin iconos ($size) {
+    width: $size;
+    height: $size;
+}
+@each $k, $v in $font-weights{
+    .font-weight-#{$k}{
+        font-weight: $v;
+    }   
+}
+#servicios{
+    @include seccion-grisclaro(600px);
+     img{
+        @include iconos(50px);
+    }
+    li{
+        line-height: 2em;
+    }
+    .servicios__arriba{
+        padding-bottom: 50px;
+    }
+}
+#preguntas-frecuentes{
+    @include seccion-grisclaro(50vh);
+    h3{
+        padding-bottom: 20px;
+    }
+}
+#banner{
+    @include banner;
+}
+.custom-btn{
+    @include boton;
+}
