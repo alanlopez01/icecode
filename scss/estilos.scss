@@ -17,8 +17,11 @@
  #banner p{
   font-size: 1.9rem;
 }
-#servicios .titulo{
-  font-size: 1.9rem;
+#servicios{
+  height: 100%;
+  .titulo{
+    font-size: 1.9rem;
+  }
 }
 #planes .titulo{
   font-size: 1.9rem;
@@ -119,7 +122,8 @@
     }
 }
 #preguntas-frecuentes{
-    height: 75vh;
+    height: 100%;
+    padding-top: 20px;
 }
 .boton-whatsapp{
    position: fixed;
@@ -810,4 +814,7 @@ textarea {
   margin: 50px 50px;
   padding: 20px 40px;
   background-color: #ebebeb;
+}
+.navbar{
+  max-height: 80px;
 }
