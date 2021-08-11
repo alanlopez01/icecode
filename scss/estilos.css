@@ -999,4 +999,16 @@ textarea {
 .habilidades-contenido {
   background-color: #f2f2f2;
 }
+
+.articulo-1 {
+  height: 100%;
+}
+
+.card-articulo__1 {
+  width: 40rem;
+  height: auto;
+  margin: 50px 50px;
+  padding: 20px 40px;
+  background-color: #ebebeb;
+}
 /*# sourceMappingURL=estilos.css.map */
