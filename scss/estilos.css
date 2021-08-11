@@ -72,6 +72,10 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
+#banner {
+  padding-top: 80px;
+}
+
 #banner h1 {
   font-size: 1.0rem;
 }
@@ -199,7 +203,7 @@ body {
 }
 
 #planes {
-  height: 100vh;
+  height: 75vh;
   padding-top: 50px;
 }
 
@@ -1019,5 +1023,8 @@ textarea {
 
 .navbar {
   max-height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 /*# sourceMappingURL=estilos.css.map */

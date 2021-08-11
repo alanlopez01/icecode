@@ -8,6 +8,9 @@
  body{
      font-family: $fuentes;
  }
+ #banner{
+   padding-top: 80px;
+ }
  #banner h1{
    font-size: 1.0rem;
  }
@@ -107,7 +110,7 @@
   margin-left: 10px;
 }
 #planes{
-  height: 100vh;
+  height: 75vh;
   padding-top: 50px;
     h3{
 	padding-bottom: 30px;
@@ -817,4 +820,8 @@ textarea {
 }
 .navbar{
   max-height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+
 }
