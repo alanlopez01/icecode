@@ -73,11 +73,15 @@ body {
 }
 
 #banner {
-  padding-top: 80px;
+  padding-top: 100px;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #banner h1 {
-  font-size: 1.0rem;
+  font-size: 1.6rem;
 }
 
 .contenido__banner {
@@ -85,7 +89,7 @@ body {
 }
 
 #banner p {
-  font-size: 1.9rem;
+  font-size: 2.6rem;
 }
 
 #servicios {
@@ -1022,7 +1026,6 @@ textarea {
 }
 
 .navbar {
-  max-height: 80px;
   position: fixed;
   width: 100%;
   z-index: 1000;
