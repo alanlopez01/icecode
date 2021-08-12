@@ -522,9 +522,9 @@ body {
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head span {
   font-family: "Spartan", sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -548,7 +548,7 @@ body {
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency {
   font-family: "Spartan", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 300;
   letter-spacing: -2px;
   line-height: 60px;
@@ -1034,7 +1034,7 @@ textarea {
 .card-articulo__1 {
   width: 40rem;
   height: auto;
-  margin: 50px 50px;
+  margin: 50px 20px;
   padding: 20px 40px;
   background-color: #ebebeb;
 }
